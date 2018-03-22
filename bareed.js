@@ -94,8 +94,11 @@ class Person {
  * new vendor = new Vendor(name, x, y);
  **********************************************************/
 class Vendor extends Person {
-  range = 5;
-  price = 1;
+  constructor(name, x, y) {
+    super(name, x, y);
+    this.range = 5;
+    this.price = 1;
+  }
 
   sellTo = (customer, numberOfIceCreams) => {
     let cost = this.price * numberOfIceCreams;

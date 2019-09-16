@@ -43,7 +43,7 @@ describe("new Vendor('Hamsa', 4, 3)", () => {
     expect(vendor.price).toBe(1);
   });
 
-  describe("has a sellTo(customer) method which", () => {
+  describe("has a sellTo(customer, numberOfIceCreams) method which", () => {
     test("moves the vendor to the customer location", () => {
       let customer = new Customer("Hamsa", 0, 0);
       vendor.sellTo(customer, 1);

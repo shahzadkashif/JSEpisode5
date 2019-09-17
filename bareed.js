@@ -70,7 +70,7 @@ class Person {
  * Subclasses Person
  *
  * range: the maximum distance this vendor can travel - initially 5
- * price: the cost of a single ice creams - initially 1
+ * price: the cost of a single ice cream - initially 1
  *
  * sellTo(customer, numberOfIceCreams):  sells a specific number of ice creams
  *     to the customer by doing the following:
@@ -96,7 +96,7 @@ class Vendor {
  *     has enough money to buy a specific number of ice creams from vendor.
  *
  * requestIceCream(vendor, numberOfIceCreams): if the customer is in the vendor's
- *     range and has enough money for icecream, a request is sent to the vendor.
+ *     range and has enough money for ice cream, a request is sent to the vendor.
  *
  * new customer = new Customer(name, x, y);
  **********************************************************/
